@@ -4,7 +4,22 @@
 	<title>overflow test</title>
 	<style type="text/css">
 
+		@font-face { 
+			font-family: "ChosunIlbo"; 
+		    src: url(fonts/chosunilbo.ttf) format("truetype");
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
+		@font-face { 
+			font-family: "Gothic"; 
+		    src: url(fonts/Gothic.ttf) format("truetype");
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
 		body {
+			font-family: 'Gothic';
 			background-color: black;
 			margin: 0;
 			color: white;
@@ -49,6 +64,7 @@
 		}
 
 		p.example {
+			font-family: 'ChosunIlbo';
 			font-size: 36px;
 			margin-left: 10%;
 			margin-top: 0;
